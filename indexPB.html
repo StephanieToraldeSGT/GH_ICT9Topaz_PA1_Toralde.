@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.8">
+    <title>Participation Activity 2</title>
+    <style>
+        body {
+            background: url(https://cdn.pixabay.com/photo/2016/03/27/18/54/technology-1283624_1280.jpg) center center/cover no-repeat fixed;
+        }
+
+        .id {
+            font-family: monospace;
+        }
+
+        h1 {
+            text-align: center;
+            background-color: #ffffff;
+        }
+
+        .my-box {
+            width: 600px;
+            height: 300px;
+            padding: 20px;
+            margin: 10px auto;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+    </style>
+</head>
+<h1 style="font-family: monospace;">Not so accurately explained history of JavaScript.</h1>
+<div class="my-box">
+    <div id="output"></div>
+    <div id="output2"></div>
+    <div id="output3"></div>
+    <div id="output4"></div>
+    <div id="output5"></div>
+    <div id="output6"></div>
+    <div id="output7" style="font-size: smaller;"></div>
+
+    <script>
+        let p1 = '* At the very basics of its history (or atleast name evolution): Javascript was invented by Brendan Eich in 1995 and was initially called Mocha during earlier development'
+        let p2 = ' the very first version was requested by NetScape to said fellow in order to develop a scripting language similar to Java (albeit "object oriented" instead of class-based). This goal was achieved in just 10 days!'
+        let p3 = '* Then, the next chapter of its evolution happened when its name was later edited to LiveScript because of how the program could be changed and edited in real-time.'
+        let p4 = '* Later on, they decided that it be best for marketing reasons to merge the name LiveScript with Java, which is where we get the popular name for the programming language; "JavaScript".'
+        let p5 = '* The truest debut of JavaScript 1.0 itself, was with its release with NetScape Navigator 2.0, as both were key innovations for the Document Object Model (DOM)'
+        let p6 = '* Finally, in order to prevent a broken browser environment, Netscape gave up JavaScript (alongside Microsofts JScript) to ECMA International. Making Javascript a ECMA-262 standard in 1997 as both it and JScript became dialects for ECMAScript, which could be considered another name for the programming language of JavaScript (I think, I dunno I forgot..)'
+        let p7 = ' -> references: https://www.w3schools.com/js/js_history.asp, https://deno.com/blog/history-of-javascript'
+
+        document.getElementById('output').innerHTML = p1 + p2;// concatenation
+        document.getElementById('output3').innerHTML = p3;
+        document.getElementById('output4').innerHTML = p4 + p5; // concatenation
+        document.getElementById('output6').innerHTML = p6;
+        document.getElementById('output7').innerHTML = p7;
+    </script>
+</div>
+</body>
+<html>
